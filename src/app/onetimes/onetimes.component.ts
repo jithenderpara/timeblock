@@ -6,11 +6,11 @@ import { ToastrService } from 'ngx-toastr';
 import { DataService } from '../services/timeblock';
 
 @Component({
-	selector: 'app-timeblock',
-	templateUrl: './timeblock.component.html',
-	styleUrls: ['./timeblock.component.sass']
+selector: 'app-onetimes',
+  templateUrl: './onetimes.component.html',
+  styleUrls: ['./onetimes.component.sass']
 })
-export class TimeblockComponent implements OnInit {
+export class OnetimesComponent implements OnInit {
 	constructor(private fb: FormBuilder, private toastr: ToastrService, private dataService: DataService) {}
 	weeks = [];
 	months = [];

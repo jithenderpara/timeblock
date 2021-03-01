@@ -9,10 +9,12 @@ import { TimeblockComponent } from './timeblock/timeblock.component';
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { UphnSyncAsyncComponent } from './uphn-sync-async/uphn-sync-async.component';
+import { OnetimesComponent } from './onetimes/onetimes.component';
 
 
 @NgModule({
-	declarations: [AppComponent, TimeblockComponent],
+	declarations: [AppComponent, TimeblockComponent, UphnSyncAsyncComponent, OnetimesComponent],
 	imports: [BrowserModule, FormsModule, ReactiveFormsModule, NgMultiSelectDropDownModule.forRoot(), BrowserAnimationsModule, // required animations module
     ToastrModule.forRoot(), // ToastrModule added
     HttpClientModule 
